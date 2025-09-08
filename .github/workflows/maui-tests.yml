@@ -23,7 +23,7 @@ jobs:
           dotnet-version: '8.0.x'  # Gebruik de juiste versie voor MAUI
 
       - name: Installeer IOS workloads
-      - run: dotnet workload install ios
+        run: dotnet workload install ios
  
       - name: Installeer MAUI workloads
         run: dotnet workload install maui-android
